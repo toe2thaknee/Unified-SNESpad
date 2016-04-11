@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<button color="#000000" icon="up" ondown="left_down" onup="left_up"/>
+	</row>
+	<row>
+	<button color="#000000" icon="left" ondown="down_down" onup="down_up"/>
+	<button color="#000000" icon="right" ondown="up_down" onup="up_up"/>
+
+	</row>
+	<row>
+		<button color="#000000" icon="down" ondown="right_down" onup="right_up"/>
+	</row>
+	<row>
+		<button text="Sel" ontap="z" />
+		<button text="Strt" ontap="s" />
+		<button text="LB" ontap="lb" />
+		<button text="RB" ontap="rb" />
+	</row>
+	<row>
+		<button color="#d0c7f2" text="Y" ontap="y" />
+		<button color="#d0c7f2" text="X" ontap="x" />
+	</row>
+	<row>
+		<button color="#422a79" text="B" ontap="b" />
+		<button color="#422a79" text="A" ontap="a" />
+	</row>
+</layout>
